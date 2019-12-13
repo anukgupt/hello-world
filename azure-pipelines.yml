@@ -23,5 +23,5 @@ resources:
   repositories:
     - repository: 'anukritigupta1234/hello-world'
       type: git
-      name: tmpl
+      name: hello-world
 
