@@ -11,7 +11,7 @@ pool:
 
 steps:
 - checkout: self
-- checkout: hello-world
+- checkout: 'anukritigupta1234/hello-world'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
@@ -22,7 +22,7 @@ steps:
 
 resources:
   repositories:
-  - repository: hello-world
+  - repository: 'anukritigupta1234/hello-world'
     type: github
     endpoint: github.com_anukritigupta1234
 
