@@ -4,7 +4,6 @@ resources:
     - repository: 'anukritigupta1234/test'
       type: github
       endpoint: github2
-      name: hello-world
       
 
 trigger:
