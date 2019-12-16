@@ -11,7 +11,7 @@ pool:
 
 steps:
 - checkout: self
-- checkout: tools
+- checkout: hello-world
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
