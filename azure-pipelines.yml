@@ -1,10 +1,11 @@
 
 resources:
   repositories:
-    - repository: 'anukritigupta1234/hello-world'
+    - repository: 'anukritigupta1234/test'
       type: github
       endpoint: github2
       name: hello-world
+      
 
 trigger:
 - master
