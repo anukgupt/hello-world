@@ -3,6 +3,7 @@ resources:
   repositories:
     - repository: 'anukritigupta1234/hello-world'
       type: github
+      endpoint: GitHub
       name: hello-world
 
 trigger:
