@@ -1,9 +1,10 @@
 
 resources:
   repositories:
-    - repository: 'anukritigupta1234/test'
+    - repository: MyRepo
       type: github
       endpoint: github2
+      name: anukritigupta1234/test
       
 
 trigger:
