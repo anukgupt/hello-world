@@ -10,6 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- checkout: self
+- checkout: tools
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
@@ -17,3 +19,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+resources:
+  repositories:
+  - repository: tools
+    type: github
+    endpoint: github.com_anukritigupta1234
+
