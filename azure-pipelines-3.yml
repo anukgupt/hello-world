@@ -22,7 +22,7 @@ steps:
 
 resources:
   repositories:
-  - repository: tools
+  - repository: hello-world
     type: github
     endpoint: github.com_anukritigupta1234
 
