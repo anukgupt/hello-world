@@ -23,6 +23,6 @@ steps:
 resources:
   repositories:
   - repository: 'anukritigupta1234/hello-world'
-    type: github
-    endpoint: github.com_anukritigupta1234
+    type: git
+    endpoint: 'github.com_anukritigupta1234'
 
