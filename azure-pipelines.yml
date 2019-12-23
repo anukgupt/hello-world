@@ -1,7 +1,7 @@
 
 resources:
   repositories:
-    - repository: MyRepo
+    - repository: MyRepo1
       type: github
       endpoint: github_1
       name: anukritigupta1234/helloworld
@@ -16,5 +16,5 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- checkout: MyRepo
+- checkout: MyRepo1
 
