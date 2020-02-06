@@ -5,6 +5,7 @@
 #       endpoint: github_2
 #       name: anukritigupta1234/helloworld
       
+trigger: none
 
 pool: default
 
