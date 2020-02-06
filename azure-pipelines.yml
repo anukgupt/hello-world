@@ -1,15 +1,12 @@
-resources:
-  repositories:
-    - repository: MyRepo
-      type: github
-      endpoint: github_2
-      name: anukritigupta1234/helloworld
+# resources:
+#   repositories:
+#     - repository: MyRepo
+#       type: github
+#       endpoint: github_2
+#       name: anukritigupta1234/helloworld
       
 
-trigger:
-- master
-
-pool: default
+# pool: default
 
 steps:
 - script: echo Hello, world!
