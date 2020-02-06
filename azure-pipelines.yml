@@ -6,8 +6,8 @@ resources:
       name: anukritigupta1234/helloworld
       
 
-trigger:
-- master
+# trigger:
+# - master
 
 pool: default
 
